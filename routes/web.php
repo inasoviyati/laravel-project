@@ -18,8 +18,8 @@ use App\Http\Controllers\UserController;
 
 
 
-  Route::get('/', function(){
-    return view('admin/datainstruktur'); 
+  Route::get('/instructor', function(){
+    return view('admin/instructor'); 
         
     });
 

@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Mahasiswa;
-use App\Http\Requests\StoreMahasiswaRequest;
-use App\Http\Requests\UpdateMahasiswaRequest;
+use App\Models\Student;
+use App\Http\Requests\StoreStudentRequest;
+use App\Http\Requests\UpdateStudentRequest;
 
-class MahasiswaController extends Controller
+class StudentController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -31,10 +31,10 @@ class MahasiswaController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreMahasiswaRequest  $request
+     * @param  \App\Http\Requests\StoreStudentRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreMahasiswaRequest $request)
+    public function store(StoreStudentRequest $request)
     {
         //
     }
@@ -42,10 +42,10 @@ class MahasiswaController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Mahasiswa  $mahasiswa
+     * @param  \App\Models\Student  $student
      * @return \Illuminate\Http\Response
      */
-    public function show(Mahasiswa $mahasiswa)
+    public function show(Student $student)
     {
         //
     }
@@ -53,10 +53,10 @@ class MahasiswaController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Mahasiswa  $mahasiswa
+     * @param  \App\Models\Student  $student
      * @return \Illuminate\Http\Response
      */
-    public function edit(Mahasiswa $mahasiswa)
+    public function edit(Student $student)
     {
         //
     }
@@ -64,11 +64,11 @@ class MahasiswaController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateMahasiswaRequest  $request
-     * @param  \App\Models\Mahasiswa  $mahasiswa
+     * @param  \App\Http\Requests\UpdateStudentRequest  $request
+     * @param  \App\Models\Student  $student
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateMahasiswaRequest $request, Mahasiswa $mahasiswa)
+    public function update(UpdateStudentRequest $request, Student $student)
     {
         //
     }
@@ -76,10 +76,10 @@ class MahasiswaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Mahasiswa  $mahasiswa
+     * @param  \App\Models\Student  $student
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Mahasiswa $mahasiswa)
+    public function destroy(Student $student)
     {
         //
     }

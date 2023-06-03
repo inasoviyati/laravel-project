@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\instruktur;
-use App\Http\Requests\StoreinstrukturRequest;
-use App\Http\Requests\UpdateinstrukturRequest;
+use App\Models\instructor;
+use App\Http\Requests\StoreinstructorRequest;
+use App\Http\Requests\UpdateinstructorRequest;
 
-class InstrukturController extends Controller
+class InstructorController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -31,10 +31,10 @@ class InstrukturController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreinstrukturRequest  $request
+     * @param  \App\Http\Requests\StoreinstructorRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreinstrukturRequest $request)
+    public function store(StoreinstructorRequest $request)
     {
         //
     }
@@ -42,10 +42,10 @@ class InstrukturController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\instruktur  $instruktur
+     * @param  \App\Models\instructor  $instructor
      * @return \Illuminate\Http\Response
      */
-    public function show(instruktur $instruktur)
+    public function show(instructor $instructor)
     {
         //
     }
@@ -53,10 +53,10 @@ class InstrukturController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\instruktur  $instruktur
+     * @param  \App\Models\instructor  $instructor
      * @return \Illuminate\Http\Response
      */
-    public function edit(instruktur $instruktur)
+    public function edit(instructor $instructor)
     {
         //
     }
@@ -64,11 +64,11 @@ class InstrukturController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateinstrukturRequest  $request
-     * @param  \App\Models\instruktur  $instruktur
+     * @param  \App\Http\Requests\UpdateinstructorRequest  $request
+     * @param  \App\Models\instructor  $instructor
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateinstrukturRequest $request, instruktur $instruktur)
+    public function update(UpdateinstructorRequest $request, instructor $instructor)
     {
         //
     }
@@ -76,10 +76,10 @@ class InstrukturController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\instruktur  $instruktur
+     * @param  \App\Models\instructor  $instructor
      * @return \Illuminate\Http\Response
      */
-    public function destroy(instruktur $instruktur)
+    public function destroy(instructor $instructor)
     {
         //
     }
