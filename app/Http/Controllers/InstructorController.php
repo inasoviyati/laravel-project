@@ -15,7 +15,7 @@ class InstructorController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin/instructor'); 
     }
 
     /**

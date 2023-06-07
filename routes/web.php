@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GuestController;
+use App\Http\Controllers\InstructorController;
+use App\Http\Controllers\StudentController;
+use App\Http\Controllers\BAPController;
 use App\Http\Controllers\UserController;
 
 
@@ -16,13 +19,24 @@ use App\Http\Controllers\UserController;
 |
 */
 
+// Route::get('/instructor', function(){
+//   return view('admin/instructor'); 
+      
+//   });
 
-
-  Route::get('/instructor', function(){
-    return view('admin/instructor'); 
+  Route::get('/', function(){
+    return view('admin/index'); 
         
     });
 
+    Route::resources([
+      'instructor'=> InstructorController::class,
+      'student'=> StudentController::class,
+      'bap'=> BAPController::class,
+
+
+      
+    ]);
     
         
 

@@ -36,17 +36,17 @@
                                 Dashboard
                             </a>
                         
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="{{url('instructor')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Data Instruktur
                             </a>
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="{{url('student')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Data Mahasiswa
                             </a>
                             </a>
 
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="{{url('bap')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 BAP
                             </a>
@@ -100,3 +100,5 @@
         <script src="{{ asset('js/scripts.js') }}"></script>
     </body>
 </html>
+
+
