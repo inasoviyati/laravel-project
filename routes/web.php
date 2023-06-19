@@ -5,6 +5,7 @@ use App\Http\Controllers\GuestController;
 use App\Http\Controllers\InstructorController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\BAPController;
+use App\Http\Controllers\RoomController;
 use App\Http\Controllers\UserController;
 
 
@@ -32,11 +33,11 @@ use App\Http\Controllers\UserController;
     Route::resources([
       'instructor'=> InstructorController::class,
       'student'=> StudentController::class,
-      'bap'=> BAPController::class,
-
-
+      //'bap'=> BAPController::class,
+      'ruangpertemuan'=> RoomController::class,
       
     ]);
+    
     
         
 

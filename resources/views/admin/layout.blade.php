@@ -64,13 +64,7 @@
                             </a>
                             </a>
                             
-                            <a class="nav-link" href="index.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Ruang Pertemuan
-                            </a>
-                            </a>
-                            
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="{{url('ruangpertemuan')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Ruang Pertemuan
                             </a>
@@ -79,6 +73,15 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Nilai
                             </a>
+                            
+                            </a>
+                            <div class="sb-sidenav-menu-heading">Mahasiswa</div>
+                            <a class="nav-link" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Ruang Pertemuan
+                            </a>
+
+                            
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
